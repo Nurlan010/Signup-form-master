@@ -1,0 +1,101 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url(../image/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+  }
+.container{
+    max-width: 1440px;
+    display: flex;
+}
+.content{
+    display: flex;
+    width: 100%;
+}
+.texts{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+  .text{
+      color: #fff;
+      width: 100%;
+      padding-left: 10rem;
+        padding-top: 15rem;
+  
+  }
+  .text h1{
+      font-size: 4rem;
+      padding-bottom: 2rem;
+  }
+  .text p{
+      font-size: 2rem;
+      opacity: 0.6;
+  }
+
+  .sign-side{
+      margin: 15rem;
+      margin-bottom: 0;
+  }
+
+  .top{
+      width: 50rem;
+      height: 5rem;
+      background-color: hsl(248, 32%, 49%);
+      border-radius: 1rem;
+      margin-bottom: 2rem;
+  }
+  .top h1{
+      font-size: 2rem;
+      color: #fff;
+      text-align: center;  
+      padding-top: 1rem;
+    }
+    
+    .bottom{
+        width: 50rem;
+        height: 45rem;
+        background-color:#fff ;
+        border-radius: 1rem;
+        
+    }
+
+    .bottom .inputs{
+        margin-bottom: 1rem;
+        text-align: center;
+        padding-top: 3rem;
+ 
+    }
+
+    .bottom .inputs input{
+        width: 40rem;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        border: 1px solid black;
+    }
+    .bottom .inputs button{
+        width: 40rem;
+        padding: 1.5rem;
+        background-color: hsl(154, 59%, 51%);
+        border: none;
+        border-radius: 0.5rem;
+        color: #fff;
+    }
+
+    .bottom p{
+        text-align: center;
+        opacity: 0.6;
+    }
+    .bottom p b{
+        color: red;
+    }
