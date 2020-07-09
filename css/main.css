@@ -90,6 +90,7 @@ body{
         border: none;
         border-radius: 0.5rem;
         color: #fff;
+        cursor: pointer;
     }
 
     .bottom p{
